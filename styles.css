@@ -76,6 +76,7 @@ main {
 
 .details {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
@@ -142,11 +143,6 @@ footer a:hover {
 
     .search button {
         margin-inline: auto;
-    }
-
-    .details {
-        display: flex;
-        flex-wrap: wrap;
     }
 
     .humidity, .wind, .details p {
