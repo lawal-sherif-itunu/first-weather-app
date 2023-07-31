@@ -143,4 +143,17 @@ footer a:hover {
     .search button {
         margin-inline: auto;
     }
+
+    .details {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .humidity, .wind, .details p {
+        font-size:  14px;
+    }
+
+    .col img {
+        width: 25px;
+    }
 }
